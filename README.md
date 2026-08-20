@@ -68,32 +68,31 @@ Utilizados para verificar a presença ou ausência de um elemento dentro de uma 
    python operadores.py
    ```
 
-# ==============================================================================
+
+
+
+
+# ==========================================
 # GUIA COMPLETO DE OPERADORES EM PYTHON
-# ==============================================================================
-# Este repositório serve como um guia prático e rápido sobre os principais
-# tipos de operadores da linguagem Python, cobrindo a sintaxe e exemplos de uso.
-# ==============================================================================
+# ==========================================
 
 print("--- 1. OPERADORES ARITMÉTICOS ---")
 a, b = 10, 3
-print(f"Soma (10 + 3): {a + b}")
-print(f"Subtração (10 - 3): {a - b}")
-print(f"Multiplicação (10 * 3): {a * b}")
-print(f"Divisão (10 / 3): {a / b}")
-print(f"Divisão Inteira (10 // 3): {a // b}")
-print(f"Módulo / Resto (10 % 3): {a % b}")
-print(f"Exponenciação (10 ** 3): {a ** b}")
+print(f"Soma: {a + b}")
+print(f"Subtração: {a - b}")
+print(f"Multiplicação: {a * b}")
+print(f"Divisão: {a / b}")
+print(f"Divisão Inteira: {a // b}")
+print(f"Módulo/Resto: {a % b}")
+print(f"Exponenciação: {a ** b}")
 print("-" * 40)
 
 print("\n--- 2. OPERADORES DE COMPARAÇÃO ---")
 x, y = 5, 8
-print(f"Igual a (5 == 8): {x == y}")
-print(f"Diferente de (5 != 8): {x != y}")
-print(f"Maior que (5 > 8): {x > y}")
-print(f"Menor que (5 < 8): {x < y}")
-print(f"Maior ou igual (5 >= 5): {5 >= 5}")
-print(f"Menor ou igual (5 <= 8): {x <= y}")
+print(f"Igual a: {x == y}")
+print(f"Diferente de: {x != y}")
+print(f"Maior que: {x > y}")
+print(f"Menor que: {x < y}")
 print("-" * 40)
 
 print("\n--- 3. OPERADORES DE ATRIBUIÇÃO ---")
@@ -103,9 +102,6 @@ saldo += 300
 print(f"Após saldo += 300: {saldo}")
 saldo -= 100
 print(f"Após saldo -= 100: {saldo}")
-saldo *= 2
-print(f"Após saldo *= 2: {saldo}")
-saldo /= 4
-print(f"Após saldo /= 4: {saldo}")
 print("-" * 40)
+
 
