@@ -1,0 +1,31 @@
+# ==========================================
+# GUIA COMPLETO DE OPERADORES EM PYTHON
+# ==========================================
+
+print("--- 1. OPERADORES ARITMÉTICOS ---")
+a, b = 10, 3
+print(f"Soma: {a + b}")
+print(f"Subtração: {a - b}")
+print(f"Multiplicação: {a * b}")
+print(f"Divisão: {a / b}")
+print(f"Divisão Inteira: {a // b}")
+print(f"Módulo/Resto: {a % b}")
+print(f"Exponenciação: {a ** b}")
+print("-" * 40)
+
+print("\n--- 2. OPERADORES DE COMPARAÇÃO ---")
+x, y = 5, 8
+print(f"Igual a: {x == y}")
+print(f"Diferente de: {x != y}")
+print(f"Maior que: {x > y}")
+print(f"Menor que: {x < y}")
+print("-" * 40)
+
+print("\n--- 3. OPERADORES DE ATRIBUIÇÃO ---")
+saldo = 500
+print(f"Saldo inicial: {saldo}")
+saldo += 300
+print(f"Após saldo += 300: {saldo}")
+saldo -= 100
+print(f"Após saldo -= 100: {saldo}")
+print("-" * 40)
